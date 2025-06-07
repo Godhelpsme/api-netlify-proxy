@@ -69,6 +69,7 @@ export default async (request: Request, context: Context) => {
     body: request.body,
     method: request.method,
     headers,
+    ...(request.body && { duplex: 'half' } as any)
   });
 
   const responseHeaders = {
