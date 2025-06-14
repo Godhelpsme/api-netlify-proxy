@@ -1,6 +1,6 @@
-# palm-netlify-proxy
+# api-netlify-proxy
 
-Google PaLM API proxy on Netlify Edge
+Google Gemini API proxy on Netlify Edge
 
 
 ## Deploy
